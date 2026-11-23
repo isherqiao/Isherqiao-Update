@@ -84,8 +84,10 @@ python "<SKILL_DIR>\scripts\publish.py" `
 
 当前线上版本：
 
-- `enexam` v1.9.6 / versionCode 16
-- 国内主源：`https://u.qsis.cn:88/enexam/enexam-16.apk`
-- 备用：`https://update.qsis.cn/enexam/enexam-16.apk`
-- 大小 2,470,962 字节
-- SHA-256：`79088f25db6890cdfbf9c51bc6320853a423848c58c90e9ca0f472a114aa3239`
+- `enexam` v1.9.7 / versionCode 17
+- 国内主源：`https://u.qsis.cn:88/enexam/enexam-17.apk`
+- 备用：`https://update.qsis.cn/enexam/enexam-17.apk`
+- 大小 2,479,154 字节
+- SHA-256：`5bf5eb342d45576e5b08ec308df0e7ce9358ace2e52cb451bd2ea374b4cb61e4`
+- 用户协议：<https://update.qsis.cn/enexam/terms.html>
+- 隐私政策：<https://update.qsis.cn/enexam/privacy.html>
