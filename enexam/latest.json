@@ -1,17 +1,17 @@
 {
-    "versionCode": 13,
-    "versionName": "1.9.3",
-    "url": "https://update.qsis.cn/enexam/enexam-13.apk",
+    "versionCode": 14,
+    "versionName": "1.9.4",
+    "url": "https://update.qsis.cn/enexam/enexam-14.apk",
     "urls": [
-        "https://update.qsis.cn/enexam/enexam-13.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-13.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-13.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-13.apk",
-        "https://u.qsis.cn:88/enexam/enexam-13.apk"
+        "https://update.qsis.cn/enexam/enexam-14.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-14.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-14.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-14.apk",
+        "https://u.qsis.cn:88/enexam/enexam-14.apk"
     ],
-    "sha256": "a7b557283907b36cea13d949eb851ede33c6435947dd73c18d6ed62204b7e785",
+    "sha256": "f043de7f4fcd441a6bc9107216407b7b456db3b64677f8665d32f17b4bffc7a2",
     "size": 2470962,
     "minSdk": 21,
-    "notes": "v1.9.3：升级源迁到 GitHub 统一仓库 Isherqiao-Update，多镜像自动回退",
-    "published": "2026-11-23 02:03:46"
+    "notes": "v1.9.4：升级检查改为页内局部刷新，不跳页；版本标识改为离线版。",
+    "published": "2026-11-23 13:24:59"
 }
