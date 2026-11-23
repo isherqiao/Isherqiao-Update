@@ -1,19 +1,19 @@
 {
-  "versionCode": 6,
-  "versionName": "1.5",
+  "versionCode": 7,
+  "versionName": "1.6",
   "package": "cn.qsis.tools",
   "app": "词根词典 A端",
-  "url": "https://u.qsis.cn:88/DCITA/dcita-6.apk",
+  "url": "https://u.qsis.cn:88/DCITA/dcita-7.apk",
   "urls": [
-    "https://u.qsis.cn:88/DCITA/dcita-6.apk",
-    "https://update.qsis.cn/DCITA/dcita-6.apk",
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-6.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-6.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-6.apk"
+    "https://u.qsis.cn:88/DCITA/dcita-7.apk",
+    "https://update.qsis.cn/DCITA/dcita-7.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-7.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-7.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-7.apk"
   ],
-  "sha256": "5669fb867019fef4b6dcc601bc98879fc1d8b0ae4cdd80cba1204f4d3005fa60",
-  "size": 16781,
+  "sha256": "ed3eb150ad3b267aba0d5f29636acf238b245c35624cb6439d2eee68c2f16687",
+  "size": 24973,
   "minSdk": 21,
-  "notes": "v1.5：支持安卓系统打印，点击打印按钮即可调起系统打印面板。",
-  "published": "2026-11-24 02:22:33"
+  "notes": "v1.6：新增原生顶部 banner，含返回、刷新、打印、设置、更新；设置与检查更新改为 APK 内原生页面。",
+  "published": "2026-11-24 03:01:01"
 }
