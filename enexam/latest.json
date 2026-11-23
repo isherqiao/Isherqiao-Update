@@ -1,0 +1,16 @@
+{
+    "versionCode": 13,
+    "versionName": "1.9.3",
+    "url": "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-13.apk",
+    "urls": [
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-13.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-13.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-13.apk",
+        "https://u.qsis.cn:88/enexam/enexam-13.apk"
+    ],
+    "sha256": "a7b557283907b36cea13d949eb851ede33c6435947dd73c18d6ed62204b7e785",
+    "size": 2470962,
+    "minSdk": 21,
+    "notes": "v1.9.3：升级源迁到 GitHub 统一仓库 Isherqiao-Update，多镜像自动回退",
+    "published": "2026-11-23 02:03:46"
+}
