@@ -1,17 +1,17 @@
 {
-    "versionCode": 17,
-    "versionName": "1.9.7",
-    "url": "https://u.qsis.cn:88/enexam/enexam-17.apk",
+    "versionCode": 18,
+    "versionName": "1.9.8",
+    "url": "https://u.qsis.cn:88/enexam/enexam-18.apk",
     "urls": [
-        "https://u.qsis.cn:88/enexam/enexam-17.apk",
-        "https://update.qsis.cn/enexam/enexam-17.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-17.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-17.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-17.apk"
+        "https://u.qsis.cn:88/enexam/enexam-18.apk",
+        "https://update.qsis.cn/enexam/enexam-18.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-18.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-18.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-18.apk"
     ],
-    "sha256": "5bf5eb342d45576e5b08ec308df0e7ce9358ace2e52cb451bd2ea374b4cb61e4",
+    "sha256": "6d26f4cbbd0d0083b8a2b3e56d0ca61e585297ad1787fa21411dd24586f729e3",
     "size": 2479154,
     "minSdk": 21,
-    "notes": "v1.9.7：加入网站ICP备案号、用户协议与隐私政策",
-    "published": "2026-11-23 15:14:41"
+    "notes": "v1.9.8：软件内只展示 ICP 备案号，保留用户协议与隐私政策",
+    "published": "2026-11-23 15:29:29"
 }
