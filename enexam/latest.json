@@ -1,17 +1,17 @@
 {
-    "versionCode": 15,
-    "versionName": "1.9.5",
-    "url": "https://update.qsis.cn/enexam/enexam-15.apk",
+    "versionCode": 16,
+    "versionName": "1.9.6",
+    "url": "https://u.qsis.cn:88/enexam/enexam-16.apk",
     "urls": [
-        "https://update.qsis.cn/enexam/enexam-15.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-15.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-15.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-15.apk",
-        "https://u.qsis.cn:88/enexam/enexam-15.apk"
+        "https://u.qsis.cn:88/enexam/enexam-16.apk",
+        "https://update.qsis.cn/enexam/enexam-16.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-16.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-16.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-16.apk"
     ],
-    "sha256": "09d63560f376be363405a25f94cd4f853655b371c94f996117140734565eb6ac",
+    "sha256": "79088f25db6890cdfbf9c51bc6320853a423848c58c90e9ca0f472a114aa3239",
     "size": 2470962,
     "minSdk": 21,
-    "notes": "v1.9.5：搜索按匹配优先级排序，完全匹配/开头匹配优先。",
-    "published": "2026-11-23 13:44:06"
+    "notes": "v1.9.6：升级源改为 u.qsis.cn:88 国内镜像优先，update.qsis.cn 与 GitHub 兜底。",
+    "published": "2026-11-23 14:08:21"
 }
