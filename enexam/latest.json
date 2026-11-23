@@ -1,17 +1,17 @@
 {
-    "versionCode": 19,
-    "versionName": "1.9.9",
-    "url": "https://u.qsis.cn:88/enexam/enexam-19.apk",
+    "versionCode": 20,
+    "versionName": "1.10.0",
+    "url": "https://u.qsis.cn:88/enexam/enexam-20.apk",
     "urls": [
-        "https://u.qsis.cn:88/enexam/enexam-19.apk",
-        "https://update.qsis.cn/enexam/enexam-19.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-19.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-19.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-19.apk"
+        "https://u.qsis.cn:88/enexam/enexam-20.apk",
+        "https://update.qsis.cn/enexam/enexam-20.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-20.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-20.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-20.apk"
     ],
-    "sha256": "cbace8b7f061457bf23fde5caff112a11f16aa6d69cbfbcfbde67f5d85b3e0d4",
-    "size": 2708530,
+    "sha256": "151fb3cef6b0e6560e0fa85658f59bb30d1ba8330486247534215f5d2ca483b2",
+    "size": 2712626,
     "minSdk": 21,
-    "notes": "新增教辅模式：可切换按教材册→单元→词序浏览，新增小学档，版本档位扩为五档。",
-    "published": "2026-11-23 18:01:48"
+    "notes": "教辅模式改用连续单元编号，隐藏年级/册次和学段标签，首进入默认初中版。",
+    "published": "2026-11-23 18:16:42"
 }
