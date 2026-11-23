@@ -1,11 +1,11 @@
 # 英文备考一体 · 离线 APK
 
 - 包名：`cn.qsis.enexam`
-- 当前版本：v1.9.7 / versionCode 17
+- 当前版本：v1.9.8 / versionCode 18
 - 国内主源清单：<https://u.qsis.cn:88/enexam/latest.json>
-- 国内主源安装包：<https://u.qsis.cn:88/enexam/enexam-17.apk>
+- 国内主源安装包：<https://u.qsis.cn:88/enexam/enexam-18.apk>
 - 备用清单：<https://update.qsis.cn/enexam/latest.json>
-- 备用安装包：<https://update.qsis.cn/enexam/enexam-17.apk>
+- 备用安装包：<https://update.qsis.cn/enexam/enexam-18.apk>
 - 用户协议：<https://update.qsis.cn/enexam/terms.html>
 - 隐私政策：<https://update.qsis.cn/enexam/privacy.html>
 - ICP备案号：京ICP备2021005632号（网站备案，不等同于 APP 备案）
@@ -17,7 +17,7 @@
 当前 APK：
 
 - 大小：2,479,154 字节
-- SHA-256：`5bf5eb342d45576e5b08ec308df0e7ce9358ace2e52cb451bd2ea374b4cb61e4`
+- SHA-256：`6d26f4cbbd0d0083b8a2b3e56d0ca61e585297ad1787fa21411dd24586f729e3`
 
 ## 发布
 
