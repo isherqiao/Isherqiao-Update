@@ -2,6 +2,10 @@
 
 乔硕（isherqiao）所有软件的统一升级仓库。一个软件一个文件夹，互不干扰。
 
+- 自定义域名：<https://update.qsis.cn/>
+- GitHub Pages：<https://isherqiao.github.io/Isherqiao-Update/>
+- 默认分支：`main`
+
 ## 目录
 
 | 文件夹 | 软件 | 升级清单 |
@@ -10,11 +14,13 @@
 | `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json`（迁移中） |
 | `qscms/` | QSCMS（文件版 / MySQL 版） | 待定 |
 
+根目录 `index.html` 是统一入口页，列出各软件和下载链接。
+
 ## 客户端取清单的顺序
 
-1. `https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/<软件>/latest.json`
-2. `https://isherqiao.github.io/Isherqiao-Update/<软件>/latest.json`（需开启 Pages）
-3. `https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/<软件>/latest.json`
+1. `https://update.qsis.cn/<软件>/latest.json`（GitHub Pages 自定义域名）
+2. `https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/<软件>/latest.json`
+3. `https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/<软件>/latest.json`
 4. 原有 `https://u.qsis.cn:88/enexam/latest.json` 作为老入口兜底
 
 `latest.json` 里的 `url` 保持一个主下载地址，另用 `urls` 数组给出镜像，客户端逐个尝试：
@@ -23,9 +29,10 @@
 {
   "versionCode": 13,
   "versionName": "1.9.3",
-  "url": "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-13.apk",
+  "url": "https://update.qsis.cn/enexam/enexam-13.apk",
   "urls": [
     "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-13.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-13.apk",
     "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-13.apk",
     "https://u.qsis.cn:88/enexam/enexam-13.apk"
   ],
@@ -51,4 +58,10 @@ cd G:\GitHub\EngExamApk
 php tools\publish_update.php "更新说明"
 ```
 
-生成后把 `update\enexam-<版本>.apk` 和 `update\latest.json` 复制到本仓库 `enexam\`，提交推送。
+生成后把 `update\enexam-<版本>.apk` 和 `update\latest.json` 复制到本仓库 `enexam\`，上传到 `main`。
+
+当前线上版本：
+
+- `enexam` v1.9.3 / versionCode 13
+- APK：`enexam/enexam-13.apk`，大小 2,470,962 字节
+- SHA-256：`a7b557283907b36cea13d949eb851ede33c6435947dd73c18d6ed62204b7e785`
