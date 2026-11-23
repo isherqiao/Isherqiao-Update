@@ -44,6 +44,7 @@ cd G:\GitHub\ToolsApk
 
 ## 注意
 
+- v1.3 起首次启动会弹出《隐私政策与用户协议》确认页，显示运营者、ICP 备案号和数据处理说明；不同意则退出，同意后进入。协议全文见上方两个链接。
 - 当前壳没有内嵌自动升级代码，`latest.json` 已准备好，但旧版 APP 不会自己下载安装；后续给 `MainActivity.java` 加更新检查后才会自动升级。
 - 网站 ICP 备案号不能代替 APP 备案号；本 APP 目前只有网站备案，没有 APP 备案。
 - A 端 APP 的启动地址目前仍是 HTTP `http://tools.qsis.cn/`；上架前建议确认 HTTPS 可用后改为 HTTPS。
