@@ -34,13 +34,14 @@ cd G:\GitHub\ToolsApk
 
 脚本会：
 
-1. 调 `build.ps1` 构建 `ToolsWebView.apk`；
-2. 复制为 `update\dcita-<versionCode>.apk`；
-3. 生成 `update\latest.json`，国内地址排第一；
-4. 先上传 `u.qsis.cn:88/DCITA/` 并校验；
-5. 再上传 GitHub `Isherqiao-Update/DCITA/`，等 Pages 构建后校验 `update.qsis.cn/DCITA/`。
+1. 自动把 `versionCode +1`、`versionName` 末位 `+1`，同步改 `AndroidManifest.xml`、`MainActivity.java` 的 UA 和版本文案；
+2. 调 `build.ps1` 构建 `ToolsWebView.apk`；
+3. 复制为 `update\dcita-<versionCode>.apk`；
+4. 生成 `update\latest.json`，国内地址排第一；
+5. 先上传 `u.qsis.cn:88/DCITA/` 并校验；
+6. 再上传 GitHub `Isherqiao-Update/DCITA/`，等 Pages 构建后校验 `update.qsis.cn/DCITA/`。
 
-只重发当前包：`.\release.ps1 "说明" -SkipBuild`。只生成清单：`.\release.ps1 "说明" -SkipBuild -NoPublish`。
+只重发当前包：`.\release.ps1 "说明" -SkipBuild`（不升版本）。不想自动升版本：加 `-NoBump`。只生成清单：`.\release.ps1 "说明" -SkipBuild -NoPublish`。
 
 ## 注意
 
