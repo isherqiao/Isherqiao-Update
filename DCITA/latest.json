@@ -1,19 +1,19 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3",
+  "versionCode": 5,
+  "versionName": "1.4",
   "package": "cn.qsis.tools",
   "app": "词根词典 A端",
-  "url": "https://u.qsis.cn:88/DCITA/dcita-4.apk",
+  "url": "https://u.qsis.cn:88/DCITA/dcita-5.apk",
   "urls": [
-    "https://u.qsis.cn:88/DCITA/dcita-4.apk",
-    "https://update.qsis.cn/DCITA/dcita-4.apk",
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-4.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-4.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-4.apk"
+    "https://u.qsis.cn:88/DCITA/dcita-5.apk",
+    "https://update.qsis.cn/DCITA/dcita-5.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-5.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-5.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-5.apk"
   ],
-  "sha256": "bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3",
-  "size": 12685,
+  "sha256": "cd87be6b5689d98f5a9002ad69000334ed15e2408dc62770ba779d7cc3dbc6a3",
+  "size": 16781,
   "minSdk": 21,
-  "notes": "A端 1.3：新增首启隐私政策与用户协议确认，显示 ICP 备案号",
-  "published": "2026-11-23 16:12:18"
+  "notes": "v1.4：新增 APP 活动记录，记录启动、前后台、亮屏/息屏与活跃时长；与登录日志分开，后台可按邮箱查看。",
+  "published": "2026-11-24 01:54:27"
 }
