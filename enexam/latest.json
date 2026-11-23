@@ -1,17 +1,17 @@
 {
-    "versionCode": 22,
-    "versionName": "1.10.2",
-    "url": "https://u.qsis.cn:88/enexam/enexam-22.apk",
+    "versionCode": 23,
+    "versionName": "1.10.3",
+    "url": "https://u.qsis.cn:88/enexam/enexam-23.apk",
     "urls": [
-        "https://u.qsis.cn:88/enexam/enexam-22.apk",
-        "https://update.qsis.cn/enexam/enexam-22.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-22.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-22.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-22.apk"
+        "https://u.qsis.cn:88/enexam/enexam-23.apk",
+        "https://update.qsis.cn/enexam/enexam-23.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-23.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-23.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-23.apk"
     ],
-    "sha256": "a72628da4c686df96e0752f94e36361dec2f933c9ce7fc793b3c624232090e82",
+    "sha256": "e73dc10bfc06b4a10f36274de11785704404103e6fa7ce15be8fe4803f586e11",
     "size": 2712626,
     "minSdk": 21,
-    "notes": "例句改为列表内展开；教辅模式详情页增加下一个单词，按单元连续跳转。",
-    "published": "2026-11-23 19:01:32"
+    "notes": "教辅模式只显示教材单元内单词，确保列表与下一个词序一致。",
+    "published": "2026-11-23 19:06:07"
 }
