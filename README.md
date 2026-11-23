@@ -2,42 +2,54 @@
 
 乔硕（isherqiao）所有软件的统一升级仓库。一个软件一个文件夹，互不干扰。
 
+- 国内主源：<https://u.qsis.cn:88/>
 - 自定义域名：<https://update.qsis.cn/>
 - GitHub Pages：<https://isherqiao.github.io/Isherqiao-Update/>
 - 默认分支：`main`
 
+## 双通道规则
+
+每个新版本必须同时发两处，顺序固定：
+
+1. 先上传国内镜像 `https://u.qsis.cn:88/<软件>/`，并验证 200、大小、SHA-256。
+2. 再上传本仓库 `<软件>/`，等 GitHub Pages 构建完成后验证 `https://update.qsis.cn/<软件>/`。
+
+国内镜像速度快、不消耗 GitHub 流量；本仓库作为异地兜底。只发一处不算发布完成。
+
 ## 目录
 
-| 文件夹 | 软件 | 升级清单 |
-|---|---|---|
-| `enexam/` | 英文备考一体（离线 APK，`cn.qsis.enexam`） | `latest.json` |
-| `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json`（已迁入） |
-| `qscms/` | QSCMS（文件版 / MySQL 版） | 待定 |
+| 文件夹 | 软件 | 升级清单 | 国内镜像 |
+|---|---|---|---|
+| `enexam/` | 英文备考一体（离线 APK，`cn.qsis.enexam`） | `latest.json` | `/www/u/enexam/` |
+| `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json` | `/www/u/`（已迁入） |
+| `qscms/` | QSCMS（文件版 / MySQL 版） | 待定 | 待定 |
 
 根目录 `index.html` 是统一入口页，列出各软件和下载链接。
 
 ## 客户端取清单的顺序
 
-1. `https://update.qsis.cn/<软件>/latest.json`（GitHub Pages 自定义域名）
-2. `https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/<软件>/latest.json`
-3. `https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/<软件>/latest.json`
-4. 原有 `https://u.qsis.cn:88/enexam/latest.json` 作为老入口兜底
+1. `https://u.qsis.cn:88/<软件>/latest.json`（国内镜像，首选）
+2. `https://update.qsis.cn/<软件>/latest.json`（GitHub Pages 自定义域名）
+3. `https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/<软件>/latest.json`
+4. `https://isherqiao.github.io/Isherqiao-Update/<软件>/latest.json`
+5. `https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/<软件>/latest.json`
 
-`latest.json` 里的 `url` 保持一个主下载地址，另用 `urls` 数组给出镜像，客户端逐个尝试：
+`latest.json` 里的 `url` 是首选地址，另用 `urls` 数组给出完整镜像，客户端逐个尝试：
 
 ```json
 {
-  "versionCode": 13,
-  "versionName": "1.9.3",
-  "url": "https://update.qsis.cn/enexam/enexam-13.apk",
+  "versionCode": 16,
+  "versionName": "1.9.6",
+  "url": "https://u.qsis.cn:88/enexam/enexam-16.apk",
   "urls": [
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-13.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-13.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-13.apk",
-    "https://u.qsis.cn:88/enexam/enexam-13.apk"
+    "https://u.qsis.cn:88/enexam/enexam-16.apk",
+    "https://update.qsis.cn/enexam/enexam-16.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-16.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-16.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-16.apk"
   ],
   "sha256": "……",
-  "size": 2470000,
+  "size": 2470962,
   "minSdk": 21,
   "notes": "更新说明"
 }
@@ -45,23 +57,35 @@
 
 ## 发布规则
 
-- 文件名带版本号，例如 `enexam-13.apk`；同名文件不覆盖，保证旧链接永远可下载。
+- 文件名带版本号，例如 `enexam-16.apk`；同名文件不覆盖，保证旧链接永远可下载。
 - 先传安装包，再改 `latest.json`；顺序反了会让客户端点到 404。
 - 必须保留 `sha256`；客户端校验不通过会丢弃安装包。
 - GitHub 单文件上限 100 MB，APK/压缩包超过就改用 GitHub Releases。
-- 清单文件不要用 CDN 做强校验入口，CDN 可能缓存旧版；安装包可以用 CDN 加速。
+- `latest.json` 不要强依赖 CDN；CDN 可能缓存旧清单，安装包可以用 CDN 加速。
+- SFTP 通道：`s.qsis.cn:222`，用户 `root`，站点目录 `/www/u/`；88 只收 HTTPS。
+- 服务器 nginx 配置：`/etc/nginx/conf.d/u.qsis.cn.conf`，只监听 88。
 
 ## 发布命令（英文备考一体）
 
 ```powershell
 cd G:\GitHub\EngExamApk
-php tools\publish_update.php "更新说明"
+& G:\xampp\php\php.exe tools\publish_update.php "更新说明"
 ```
 
-生成后把 `update\enexam-<版本>.apk` 和 `update\latest.json` 复制到本仓库 `enexam\`，上传到 `main`。
+然后用 `qsis-dual-update-publish` Skill 的发布器一次同步两处：
+
+```powershell
+python "<SKILL_DIR>\scripts\publish.py" `
+  --github-dir enexam `
+  --u-dir /www/u/enexam `
+  --files "G:\GitHub\EngExamApk\update\enexam-16.apk" "G:\GitHub\EngExamApk\update\latest.json" `
+  --cred-file "G:\GitHub\_tmp_mysql_probe.py"
+```
 
 当前线上版本：
 
-- `enexam` v1.9.5 / versionCode 15
-- APK：`enexam/enexam-15.apk`，大小 2,470,962 字节
-- SHA-256：`09d63560f376be363405a25f94cd4f853655b371c94f996117140734565eb6ac`
+- `enexam` v1.9.6 / versionCode 16
+- 国内主源：`https://u.qsis.cn:88/enexam/enexam-16.apk`
+- 备用：`https://update.qsis.cn/enexam/enexam-16.apk`
+- 大小 2,470,962 字节
+- SHA-256：`79088f25db6890cdfbf9c51bc6320853a423848c58c90e9ca0f472a114aa3239`
