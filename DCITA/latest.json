@@ -1,19 +1,19 @@
 {
-  "versionCode": 3,
-  "versionName": "1.2",
+  "versionCode": 4,
+  "versionName": "1.3",
   "package": "cn.qsis.tools",
   "app": "词根词典 A端",
-  "url": "https://u.qsis.cn:88/DCITA/dcita-3.apk",
+  "url": "https://u.qsis.cn:88/DCITA/dcita-4.apk",
   "urls": [
-    "https://u.qsis.cn:88/DCITA/dcita-3.apk",
-    "https://update.qsis.cn/DCITA/dcita-3.apk",
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-3.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-3.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-3.apk"
+    "https://u.qsis.cn:88/DCITA/dcita-4.apk",
+    "https://update.qsis.cn/DCITA/dcita-4.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-4.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-4.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-4.apk"
   ],
-  "sha256": "0cee472eb4034947526d113e904718e29993e8c283752e75040d66031eb780fd",
+  "sha256": "bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3",
   "size": 12685,
   "minSdk": 21,
-  "notes": "词根词典 A端 Android 1.2（WebView 正式版）",
-  "published": "2026-11-23 15:58:44"
+  "notes": "A端 1.3：新增首启隐私政策与用户协议确认，显示 ICP 备案号",
+  "published": "2026-11-23 16:12:18"
 }
