@@ -1,17 +1,17 @@
 {
-    "versionCode": 21,
-    "versionName": "1.10.1",
-    "url": "https://u.qsis.cn:88/enexam/enexam-21.apk",
+    "versionCode": 22,
+    "versionName": "1.10.2",
+    "url": "https://u.qsis.cn:88/enexam/enexam-22.apk",
     "urls": [
-        "https://u.qsis.cn:88/enexam/enexam-21.apk",
-        "https://update.qsis.cn/enexam/enexam-21.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-21.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-21.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-21.apk"
+        "https://u.qsis.cn:88/enexam/enexam-22.apk",
+        "https://update.qsis.cn/enexam/enexam-22.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-22.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-22.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-22.apk"
     ],
-    "sha256": "41605e2fe6a854d5a0a2e7432f02c9b1bad2629b1e38cec8607af12fa44cefa7",
+    "sha256": "a72628da4c686df96e0752f94e36361dec2f933c9ce7fc793b3c624232090e82",
     "size": 2712626,
     "minSdk": 21,
-    "notes": "教辅模式去掉词根基础前缀与基础词标签，只保留中性词根名、单元号和释义。",
-    "published": "2026-11-23 18:21:28"
+    "notes": "例句改为列表内展开；教辅模式详情页增加下一个单词，按单元连续跳转。",
+    "published": "2026-11-23 19:01:32"
 }
