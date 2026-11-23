@@ -1,19 +1,19 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
+  "versionCode": 6,
+  "versionName": "1.5",
   "package": "cn.qsis.tools",
   "app": "词根词典 A端",
-  "url": "https://u.qsis.cn:88/DCITA/dcita-5.apk",
+  "url": "https://u.qsis.cn:88/DCITA/dcita-6.apk",
   "urls": [
-    "https://u.qsis.cn:88/DCITA/dcita-5.apk",
-    "https://update.qsis.cn/DCITA/dcita-5.apk",
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-5.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-5.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-5.apk"
+    "https://u.qsis.cn:88/DCITA/dcita-6.apk",
+    "https://update.qsis.cn/DCITA/dcita-6.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-6.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-6.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-6.apk"
   ],
-  "sha256": "cd87be6b5689d98f5a9002ad69000334ed15e2408dc62770ba779d7cc3dbc6a3",
+  "sha256": "5669fb867019fef4b6dcc601bc98879fc1d8b0ae4cdd80cba1204f4d3005fa60",
   "size": 16781,
   "minSdk": 21,
-  "notes": "v1.4：新增 APP 活动记录，记录启动、前后台、亮屏/息屏与活跃时长；与登录日志分开，后台可按邮箱查看。",
-  "published": "2026-11-24 01:54:27"
+  "notes": "v1.5：支持安卓系统打印，点击词根首页",
+  "published": "2026-11-24 02:15:31"
 }
