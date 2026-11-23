@@ -1,17 +1,17 @@
 {
-    "versionCode": 18,
-    "versionName": "1.9.8",
-    "url": "https://u.qsis.cn:88/enexam/enexam-18.apk",
+    "versionCode": 19,
+    "versionName": "1.9.9",
+    "url": "https://u.qsis.cn:88/enexam/enexam-19.apk",
     "urls": [
-        "https://u.qsis.cn:88/enexam/enexam-18.apk",
-        "https://update.qsis.cn/enexam/enexam-18.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-18.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-18.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-18.apk"
+        "https://u.qsis.cn:88/enexam/enexam-19.apk",
+        "https://update.qsis.cn/enexam/enexam-19.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-19.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-19.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-19.apk"
     ],
-    "sha256": "6d26f4cbbd0d0083b8a2b3e56d0ca61e585297ad1787fa21411dd24586f729e3",
-    "size": 2479154,
+    "sha256": "cbace8b7f061457bf23fde5caff112a11f16aa6d69cbfbcfbde67f5d85b3e0d4",
+    "size": 2708530,
     "minSdk": 21,
-    "notes": "v1.9.8：软件内只展示 ICP 备案号，保留用户协议与隐私政策",
-    "published": "2026-11-23 15:29:29"
+    "notes": "新增教辅模式：可切换按教材册→单元→词序浏览，新增小学档，版本档位扩为五档。",
+    "published": "2026-11-23 18:01:48"
 }
