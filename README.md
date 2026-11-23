@@ -62,6 +62,6 @@ php tools\publish_update.php "更新说明"
 
 当前线上版本：
 
-- `enexam` v1.9.4 / versionCode 14
-- APK：`enexam/enexam-14.apk`，大小 2,470,962 字节
-- SHA-256：`f043de7f4fcd441a6bc9107216407b7b456db3b64677f8665d32f17b4bffc7a2`
+- `enexam` v1.9.5 / versionCode 15
+- APK：`enexam/enexam-15.apk`，大小 2,470,962 字节
+- SHA-256：`09d63560f376be363405a25f94cd4f853655b371c94f996117140734565eb6ac`
