@@ -1,17 +1,17 @@
 {
-    "versionCode": 20,
-    "versionName": "1.10.0",
-    "url": "https://u.qsis.cn:88/enexam/enexam-20.apk",
+    "versionCode": 21,
+    "versionName": "1.10.1",
+    "url": "https://u.qsis.cn:88/enexam/enexam-21.apk",
     "urls": [
-        "https://u.qsis.cn:88/enexam/enexam-20.apk",
-        "https://update.qsis.cn/enexam/enexam-20.apk",
-        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-20.apk",
-        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-20.apk",
-        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-20.apk"
+        "https://u.qsis.cn:88/enexam/enexam-21.apk",
+        "https://update.qsis.cn/enexam/enexam-21.apk",
+        "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-21.apk",
+        "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-21.apk",
+        "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-21.apk"
     ],
-    "sha256": "151fb3cef6b0e6560e0fa85658f59bb30d1ba8330486247534215f5d2ca483b2",
+    "sha256": "41605e2fe6a854d5a0a2e7432f02c9b1bad2629b1e38cec8607af12fa44cefa7",
     "size": 2712626,
     "minSdk": 21,
-    "notes": "教辅模式改用连续单元编号，隐藏年级/册次和学段标签，首进入默认初中版。",
-    "published": "2026-11-23 18:16:42"
+    "notes": "教辅模式去掉词根基础前缀与基础词标签，只保留中性词根名、单元号和释义。",
+    "published": "2026-11-23 18:21:28"
 }
