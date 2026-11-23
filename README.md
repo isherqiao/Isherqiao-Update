@@ -21,6 +21,7 @@
 | 文件夹 | 软件 | 升级清单 | 国内镜像 |
 |---|---|---|---|
 | `enexam/` | 英文备考一体（离线 APK，`cn.qsis.enexam`） | `latest.json` | `/www/u/enexam/` |
+| `DCITA/` | 词根词典 A端（WebView APK，`cn.qsis.tools`） | `latest.json` | `/www/u/DCITA/` |
 | `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json` | `/www/u/`（已迁入） |
 | `qscms/` | QSCMS（文件版 / MySQL 版） | 待定 | 待定 |
 
@@ -54,6 +55,23 @@
   "notes": "更新说明"
 }
 ```
+
+## 发布命令（词根词典 A 端）
+
+```powershell
+cd G:\GitHub\ToolsApk
+.\release.ps1 "更新说明"
+```
+
+发布目录固定为 GitHub `DCITA/` 和国内镜像 `/www/u/DCITA/`。A 端 APP 是独立 WebView 壳项目，不在 `RootDictDist/a-client` 的 git 历史里；详细说明见 [`DCITA/README.md`](DCITA/README.md)。
+
+当前线上版本：
+
+- `DCITA` v1.2 / versionCode 3
+- APK：`https://u.qsis.cn:88/DCITA/dcita-3.apk`
+- 备用：`https://update.qsis.cn/DCITA/dcita-3.apk`
+- 大小 12,685 字节
+- SHA-256：`0cee472eb4034947526d113e904718e29993e8c283752e75040d66031eb780fd`
 
 ## 发布规则
 
