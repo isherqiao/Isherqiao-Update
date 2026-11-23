@@ -11,7 +11,7 @@
 | 文件夹 | 软件 | 升级清单 |
 |---|---|---|
 | `enexam/` | 英文备考一体（离线 APK，`cn.qsis.enexam`） | `latest.json` |
-| `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json`（迁移中） |
+| `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json`（已迁入） |
 | `qscms/` | QSCMS（文件版 / MySQL 版） | 待定 |
 
 根目录 `index.html` 是统一入口页，列出各软件和下载链接。
