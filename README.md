@@ -67,11 +67,11 @@ cd G:\GitHub\ToolsApk
 
 当前线上版本：
 
-- `DCITA` v1.2 / versionCode 3
-- APK：`https://u.qsis.cn:88/DCITA/dcita-3.apk`
-- 备用：`https://update.qsis.cn/DCITA/dcita-3.apk`
+- `DCITA` v1.3 / versionCode 4
+- APK：`https://u.qsis.cn:88/DCITA/dcita-4.apk`
+- 备用：`https://update.qsis.cn/DCITA/dcita-4.apk`
 - 大小 12,685 字节
-- SHA-256：`0cee472eb4034947526d113e904718e29993e8c283752e75040d66031eb780fd`
+- SHA-256：`bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3`
 
 ## 发布规则
 
