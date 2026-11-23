@@ -2,11 +2,11 @@
 
 A 端 Android WebView 壳，包名 `cn.qsis.tools`，应用名“词根词典”。
 
-- 当前版本：v1.2 / versionCode 3
-- APK：`dcita-3.apk`，12,685 字节
-- SHA-256：`0cee472eb4034947526d113e904718e29993e8c283752e75040d66031eb780fd`
-- 国内主源：<https://u.qsis.cn:88/DCITA/dcita-3.apk>
-- 备用：<https://update.qsis.cn/DCITA/dcita-3.apk>
+- 当前版本：v1.3 / versionCode 4
+- APK：`dcita-4.apk`，12,685 字节
+- SHA-256：`bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3`
+- 国内主源：<https://u.qsis.cn:88/DCITA/dcita-4.apk>
+- 备用：<https://update.qsis.cn/DCITA/dcita-4.apk>
 - 升级清单：<https://u.qsis.cn:88/DCITA/latest.json>
 - 用户协议：<https://update.qsis.cn/DCITA/terms.html>
 - 隐私政策：<https://update.qsis.cn/DCITA/privacy.html>
