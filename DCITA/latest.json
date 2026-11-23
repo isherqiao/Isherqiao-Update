@@ -1,19 +1,19 @@
 {
-  "versionCode": 7,
-  "versionName": "1.6",
+  "versionCode": 8,
+  "versionName": "1.7",
   "package": "cn.qsis.tools",
   "app": "词根词典 A端",
-  "url": "https://u.qsis.cn:88/DCITA/dcita-7.apk",
+  "url": "https://u.qsis.cn:88/DCITA/dcita-8.apk",
   "urls": [
-    "https://u.qsis.cn:88/DCITA/dcita-7.apk",
-    "https://update.qsis.cn/DCITA/dcita-7.apk",
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-7.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-7.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-7.apk"
+    "https://u.qsis.cn:88/DCITA/dcita-8.apk",
+    "https://update.qsis.cn/DCITA/dcita-8.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-8.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-8.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-8.apk"
   ],
-  "sha256": "ed3eb150ad3b267aba0d5f29636acf238b245c35624cb6439d2eee68c2f16687",
-  "size": 24973,
+  "sha256": "97212e020caae585a48fe7c5e399790a2280f9d14bf461f4999eaa6dae7c7d48",
+  "size": 29069,
   "minSdk": 21,
-  "notes": "v1.6：新增原生顶部 banner，含返回、刷新、打印、设置、更新；设置与检查更新改为 APK 内原生页面。",
-  "published": "2026-11-24 03:01:01"
+  "notes": "v1.7：修复系统打印预览空白，打印任务固定 A4、300dpi，并在转换期间隐藏 WebView。",
+  "published": "2026-11-24 03:20:05"
 }
