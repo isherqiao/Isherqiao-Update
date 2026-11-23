@@ -8,6 +8,9 @@ A 端 Android WebView 壳，包名 `cn.qsis.tools`，应用名“词根词典”
 - 国内主源：<https://u.qsis.cn:88/DCITA/dcita-3.apk>
 - 备用：<https://update.qsis.cn/DCITA/dcita-3.apk>
 - 升级清单：<https://u.qsis.cn:88/DCITA/latest.json>
+- 用户协议：<https://update.qsis.cn/DCITA/terms.html>
+- 隐私政策：<https://update.qsis.cn/DCITA/privacy.html>
+- ICP 备案：京ICP备2021005632号（网站备案，非 APP 备案）
 
 ## 它是什么
 
