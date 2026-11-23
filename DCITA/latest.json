@@ -1,0 +1,19 @@
+{
+  "versionCode": 3,
+  "versionName": "1.2",
+  "package": "cn.qsis.tools",
+  "app": "词根词典 A端",
+  "url": "https://u.qsis.cn:88/DCITA/dcita-3.apk",
+  "urls": [
+    "https://u.qsis.cn:88/DCITA/dcita-3.apk",
+    "https://update.qsis.cn/DCITA/dcita-3.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-3.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-3.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-3.apk"
+  ],
+  "sha256": "0cee472eb4034947526d113e904718e29993e8c283752e75040d66031eb780fd",
+  "size": 12685,
+  "minSdk": 21,
+  "notes": "词根词典 A端 Android 1.2（WebView 正式版）",
+  "published": "2026-11-23 15:58:44"
+}
