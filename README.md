@@ -1,0 +1,54 @@
+# Isherqiao-Update
+
+乔硕（isherqiao）所有软件的统一升级仓库。一个软件一个文件夹，互不干扰。
+
+## 目录
+
+| 文件夹 | 软件 | 升级清单 |
+|---|---|---|
+| `enexam/` | 英文备考一体（离线 APK，`cn.qsis.enexam`） | `latest.json` |
+| `galaxy-app/` | 吉利银河 / CarDeck 车机端 | `cardeck.json`（迁移中） |
+| `qscms/` | QSCMS（文件版 / MySQL 版） | 待定 |
+
+## 客户端取清单的顺序
+
+1. `https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/<软件>/latest.json`
+2. `https://isherqiao.github.io/Isherqiao-Update/<软件>/latest.json`（需开启 Pages）
+3. `https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/<软件>/latest.json`
+4. 原有 `https://u.qsis.cn:88/enexam/latest.json` 作为老入口兜底
+
+`latest.json` 里的 `url` 保持一个主下载地址，另用 `urls` 数组给出镜像，客户端逐个尝试：
+
+```json
+{
+  "versionCode": 13,
+  "versionName": "1.9.3",
+  "url": "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/enexam/enexam-13.apk",
+  "urls": [
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-13.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-13.apk",
+    "https://u.qsis.cn:88/enexam/enexam-13.apk"
+  ],
+  "sha256": "……",
+  "size": 2470000,
+  "minSdk": 21,
+  "notes": "更新说明"
+}
+```
+
+## 发布规则
+
+- 文件名带版本号，例如 `enexam-13.apk`；同名文件不覆盖，保证旧链接永远可下载。
+- 先传安装包，再改 `latest.json`；顺序反了会让客户端点到 404。
+- 必须保留 `sha256`；客户端校验不通过会丢弃安装包。
+- GitHub 单文件上限 100 MB，APK/压缩包超过就改用 GitHub Releases。
+- 清单文件不要用 CDN 做强校验入口，CDN 可能缓存旧版；安装包可以用 CDN 加速。
+
+## 发布命令（英文备考一体）
+
+```powershell
+cd G:\GitHub\EngExamApk
+php tools\publish_update.php "更新说明"
+```
+
+生成后把 `update\enexam-<版本>.apk` 和 `update\latest.json` 复制到本仓库 `enexam\`，提交推送。
