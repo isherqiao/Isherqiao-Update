@@ -1,19 +1,19 @@
 {
-  "versionCode": 10,
-  "versionName": "1.9",
+  "versionCode": 11,
+  "versionName": "2.0",
   "package": "cn.qsis.tools",
   "app": "词根词典 A端",
-  "url": "https://u.qsis.cn:88/DCITA/dcita-10.apk",
+  "url": "https://u.qsis.cn/DCITA/dcita-11.apk",
   "urls": [
-    "https://u.qsis.cn:88/DCITA/dcita-10.apk",
-    "https://update.qsis.cn/DCITA/dcita-10.apk",
-    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-10.apk",
-    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-10.apk",
-    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-10.apk"
+    "https://u.qsis.cn/DCITA/dcita-11.apk",
+    "https://update.qsis.cn/DCITA/dcita-11.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/DCITA/dcita-11.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/DCITA/dcita-11.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/DCITA/dcita-11.apk"
   ],
-  "sha256": "3c621680f15f6d0072ce52aade2acea91a932d698dbe28877887d5472a6ec328",
+  "sha256": "140b38f2344b85a3d3d5279aec70ae339c390c4d33b6ab77d2106248b1fada69",
   "size": 29069,
   "minSdk": 21,
-  "notes": "v1.9：RootDict 已迁移至 /RootDictA/；客户端启动地址、活动上报同步切换；根目录改为 QSIS 分流台（RootDictA / QSF）。",
-  "published": "2026-11-25 00:58:53"
+  "notes": "2.0：A 端站点迁移至 https://dict.qsis.cn（HTTPS），启动地址与活动上报同步切换；更新源国内镜像优先。",
+  "published": "2026-11-27 02:40:53"
 }
