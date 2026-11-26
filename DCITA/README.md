@@ -5,9 +5,9 @@ A 端 Android WebView 壳，包名 `cn.qsis.tools`，应用名“词根词典”
 - 当前版本：v1.3 / versionCode 4
 - APK：`dcita-4.apk`，12,685 字节
 - SHA-256：`bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3`
-- 国内主源：<https://u.qsis.cn:88/DCITA/dcita-4.apk>
+- 国内主源：<https://u.qsis.cn/DCITA/dcita-4.apk>
 - 备用：<https://update.qsis.cn/DCITA/dcita-4.apk>
-- 升级清单：<https://u.qsis.cn:88/DCITA/latest.json>
+- 升级清单：<https://u.qsis.cn/DCITA/latest.json>
 - 用户协议：<https://update.qsis.cn/DCITA/terms.html>
 - 隐私政策：<https://update.qsis.cn/DCITA/privacy.html>
 - ICP 备案：京ICP备2021005632号（网站备案，非 APP 备案）
@@ -38,7 +38,7 @@ cd G:\GitHub\ToolsApk
 2. 调 `build.ps1` 构建 `ToolsWebView.apk`；
 3. 复制为 `update\dcita-<versionCode>.apk`；
 4. 生成 `update\latest.json`，国内地址排第一；
-5. 先上传 `u.qsis.cn:88/DCITA/` 并校验；
+5. 先上传 `u.qsis.cn/DCITA/` 并校验；
 6. 再上传 GitHub `Isherqiao-Update/DCITA/`，等 Pages 构建后校验 `update.qsis.cn/DCITA/`。
 
 只重发当前包：`.\release.ps1 "说明" -SkipBuild`（不升版本）。不想自动升版本：加 `-NoBump`。只生成清单：`.\release.ps1 "说明" -SkipBuild -NoPublish`。
