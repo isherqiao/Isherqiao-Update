@@ -69,7 +69,7 @@ QS 车载中心（`cn.qsis.cardeck`）· 吉利星舰 7EV 横屏网页容器
 
 ## v2611217（2026-11-20）
 
-- 升级器依次尝试 `u.qsis.cn:88`、443，设置页提示同步。
+- 升级器依次尝试 `u.qsis.cn`、443，设置页提示同步。
 
 ## v2611216（2026-11-20）
 
@@ -166,7 +166,7 @@ QS 车载中心（`cn.qsis.cardeck`）· 吉利星舰 7EV 横屏网页容器
 
 | 渠道 | 地址 | 内容 |
 | --- | --- | --- |
-| 主源（自建） | `https://u.qsis.cn:88/cardeck.json` | `cardeck.json` + `cardeck-latest.apk` |
+| 主源（自建） | `https://u.qsis.cn/cardeck.json` | `cardeck.json` + `cardeck-latest.apk` |
 | 主源 443 | `https://u.qsis.cn/cardeck.json` | 同上（无证书时备用） |
 | 备源（GitHub Pages） | `https://u1.qsis.cn/cardeck.json` | 仓库 `isherqiao/geely-galaxy-app` |
 
