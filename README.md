@@ -2,7 +2,7 @@
 
 乔硕（isherqiao）所有软件的统一升级仓库。一个软件一个文件夹，互不干扰。
 
-- 国内主源：<https://u.qsis.cn:88/>
+- 国内主源：<https://u.qsis.cn/>
 - 自定义域名：<https://update.qsis.cn/>
 - GitHub Pages：<https://isherqiao.github.io/Isherqiao-Update/>
 - 默认分支：`main`
@@ -11,7 +11,7 @@
 
 每个新版本必须同时发两处，顺序固定：
 
-1. 先上传国内镜像 `https://u.qsis.cn:88/<软件>/`，并验证 200、大小、SHA-256。
+1. 先上传国内镜像 `https://u.qsis.cn/<软件>/`，并验证 200、大小、SHA-256。
 2. 再上传本仓库 `<软件>/`，等 GitHub Pages 构建完成后验证 `https://update.qsis.cn/<软件>/`。
 
 国内镜像速度快、不消耗 GitHub 流量；本仓库作为异地兜底。只发一处不算发布完成。
@@ -29,7 +29,7 @@
 
 ## 客户端取清单的顺序
 
-1. `https://u.qsis.cn:88/<软件>/latest.json`（国内镜像，首选）
+1. `https://u.qsis.cn/<软件>/latest.json`（国内镜像，首选）
 2. `https://update.qsis.cn/<软件>/latest.json`（GitHub Pages 自定义域名）
 3. `https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/<软件>/latest.json`
 4. `https://isherqiao.github.io/Isherqiao-Update/<软件>/latest.json`
@@ -41,9 +41,9 @@
 {
   "versionCode": 16,
   "versionName": "1.9.6",
-  "url": "https://u.qsis.cn:88/enexam/enexam-16.apk",
+  "url": "https://u.qsis.cn/enexam/enexam-16.apk",
   "urls": [
-    "https://u.qsis.cn:88/enexam/enexam-16.apk",
+    "https://u.qsis.cn/enexam/enexam-16.apk",
     "https://update.qsis.cn/enexam/enexam-16.apk",
     "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/enexam/enexam-16.apk",
     "https://isherqiao.github.io/Isherqiao-Update/enexam/enexam-16.apk",
@@ -68,7 +68,7 @@ cd G:\GitHub\ToolsApk
 当前线上版本：
 
 - `DCITA` v1.3 / versionCode 4
-- APK：`https://u.qsis.cn:88/DCITA/dcita-4.apk`
+- APK：`https://u.qsis.cn/DCITA/dcita-4.apk`
 - 备用：`https://update.qsis.cn/DCITA/dcita-4.apk`
 - 大小 12,685 字节
 - SHA-256：`bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3`
@@ -103,7 +103,7 @@ python "<SKILL_DIR>\scripts\publish.py" `
 当前线上版本：
 
 - `enexam` v1.9.8 / versionCode 18
-- 国内主源：`https://u.qsis.cn:88/enexam/enexam-18.apk`
+- 国内主源：`https://u.qsis.cn/enexam/enexam-18.apk`
 - 备用：`https://update.qsis.cn/enexam/enexam-18.apk`
 - 大小 2,479,154 字节
 - SHA-256：`6d26f4cbbd0d0083b8a2b3e56d0ca61e585297ad1787fa21411dd24586f729e3`
