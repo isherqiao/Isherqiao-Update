@@ -1,0 +1,17 @@
+{
+  "versionCode": 10,
+  "versionName": "1.9",
+  "url": "https://u.qsis.cn:88/GlobalNews/NewsApp-1.9.apk",
+  "urls": [
+    "https://u.qsis.cn:88/GlobalNews/NewsApp-1.9.apk",
+    "https://update.qsis.cn/GlobalNews/NewsApp-1.9.apk",
+    "https://cdn.jsdelivr.net/gh/isherqiao/Isherqiao-Update@main/GlobalNews/NewsApp-1.9.apk",
+    "https://isherqiao.github.io/Isherqiao-Update/GlobalNews/NewsApp-1.9.apk",
+    "https://raw.githubusercontent.com/isherqiao/Isherqiao-Update/main/GlobalNews/NewsApp-1.9.apk"
+  ],
+  "sha256": "d7ac16f0dbb0687e9add539454cdfe4b94171762415b9995635d59ca9043e989",
+  "size": 127699,
+  "minSdk": 21,
+  "notes": "v1.9：双地址自动切换（主站 news.qsis.cn 不通时自动切备用 news1.qsis.cn:88），升级与下载同样双地址",
+  "published": "2026-11-26 13:45:47"
+}
