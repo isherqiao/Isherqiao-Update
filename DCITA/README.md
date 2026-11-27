@@ -1,12 +1,12 @@
-# 词根词典 A端（DCITA）
+# 轻松背单词 A端（DCITA）
 
-A 端 Android WebView 壳，包名 `cn.qsis.tools`，应用名“词根词典”。
+A 端 Android WebView 壳，包名 `cn.qsis.tools`，应用名“轻松背单词”（原「词根词典 A端」）。
 
-- 当前版本：v1.3 / versionCode 4
-- APK：`dcita-4.apk`，12,685 字节
-- SHA-256：`bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3`
-- 国内主源：<https://u.qsis.cn/DCITA/dcita-4.apk>
-- 备用：<https://update.qsis.cn/DCITA/dcita-4.apk>
+- 当前版本：v2.1 / versionCode 12
+- APK：`dcita-12.apk`，29,069 字节
+- SHA-256：`416305e5d019001e3da19fd9a31c80683db13749045cc18868cae9ad53f9133d`
+- 国内主源：<https://u.qsis.cn/DCITA/dcita-12.apk>
+- 备用：<https://update.qsis.cn/DCITA/dcita-12.apk>
 - 升级清单：<https://u.qsis.cn/DCITA/latest.json>
 - 用户协议：<https://update.qsis.cn/DCITA/terms.html>
 - 隐私政策：<https://update.qsis.cn/DCITA/privacy.html>

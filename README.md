@@ -67,11 +67,11 @@ cd G:\GitHub\ToolsApk
 
 当前线上版本：
 
-- `DCITA` v1.3 / versionCode 4
-- APK：`https://u.qsis.cn/DCITA/dcita-4.apk`
-- 备用：`https://update.qsis.cn/DCITA/dcita-4.apk`
-- 大小 12,685 字节
-- SHA-256：`bd2edf64750a7286baed259d784357a382a254ddfd5e971521da022fb83052c3`
+- `DCITA` v2.1 / versionCode 12（应用名改为「轻松背单词」，包名 `cn.qsis.tools` 与目录不变）
+- APK：`https://u.qsis.cn/DCITA/dcita-12.apk`
+- 备用：`https://update.qsis.cn/DCITA/dcita-12.apk`
+- 大小 29,069 字节
+- SHA-256：`416305e5d019001e3da19fd9a31c80683db13749045cc18868cae9ad53f9133d`
 
 ## 发布规则
 

@@ -1,4 +1,4 @@
-﻿# 伊舍桥升级站 · 正式发布脚本（GitHub API 上传）
+﻿# 乔硕 App 升级站 · 正式发布脚本（GitHub API 上传）
 # 由发版系统（127.0.0.1:100 的 update 项目）在「正式发布」时调用：
 #   1) 对比本地仓库 HEAD 与 GitHub isherqiao/Isherqiao-Update main 的文件内容
 #   2) 有差异就把变化的文件通过 GitHub API 上传，生成一次提交挂到 main（相当于把文件放进对应目录）
